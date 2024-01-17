@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 65px;
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.titulo {
+    color: black;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+
+    width: 637px;
+}
+
+.container-all {
+    height: 100%;
+}
+
+.container-cima {
+    display: flex;
+    gap: 126px;
+}
+
+.container-cima-esquerda {
+    width: 637px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container-imagens {
+    width: 540px;
+    height: 520px;
+    position: relative;
+}
+
+.img1 {
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.img2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+p {
+    color: rgba(37, 37, 37, 0.80);
+    font-size: 26px;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 36px;
+    border: none;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background: black;
+    color: white;
+}
+
+.container-baixo {
+    margin-top: 56px;
+    padding: 64px;
+    border-radius: 40px;
+    background: #252525;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 1180px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 316px;
+}
+
+
+.info-frase {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.img-nuvem {
+    width: 24px;
+    height: 24px;
+}
